@@ -3,6 +3,7 @@
 /app/logs/*
 !app/cache/.gitkeep
 !app/logs/.gitkeep
+.idea/
 
 # Email spool folder
 /app/spool/*
@@ -42,3 +43,7 @@
 
 # Vendor directory
 /vendor/*
+
+# Fichier de config
+/web/config.php
+composer.phar
